@@ -8,4 +8,26 @@ li {
 
 a {
   text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
 }
+
+.task-status {
+  height: 30px;
+  padding-top: 10px;
+  border-radius: 5px;
+  margin-bottom: 0;
+  padding-left: 5px;
+  border: 0.5px solid #dedede;
+}
+
+.task-description {
+  background-color: #eee;
+  height: 30px;
+  padding-top: 10px;
+  border: 0.5px solid #dedede;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+
